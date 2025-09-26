@@ -28,9 +28,7 @@ products.forEach((product) => {
           }</div>
         </div>
 
-        <div class="product-price">$${formatCurrency(
-          matchingProduct.priceCents
-        )}</div>
+        <div class="product-price">$${formatCurrency(product.priceCents)}</div>
 
         <div class="product-quantity-container">
           <select>
